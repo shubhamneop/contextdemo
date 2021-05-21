@@ -4,6 +4,8 @@ import { NewContext } from "./NewContext";
 import DemoHoc from "./DemoHoc";
 import PortalDemo from "./PortalDemo";
 import MouseTracker from "./RenderProps";
+import ErrorB from "./ErrorBoundary";
+import NewProvider from "./NewContext";
 let num = [1, 2, 3, 4, 5, 6, 7];
 function Mult() {
   return (
@@ -19,7 +21,7 @@ function Mult() {
     </>
   );
 }
-function App() {
+function Apps() {
   const context = useContext(NewContext);
   const [count, setCount] = useState(0);
   const [show, setShow] = useState(false);
@@ -68,6 +70,16 @@ function App() {
         <MouseTracker />
       </header>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <ErrorB>
+      <NewProvider>
+        <Apps />
+      </NewProvider>
+    </ErrorB>
   );
 }
 

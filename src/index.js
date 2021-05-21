@@ -3,16 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import NewProvider from "./NewContext";
-import ErrorB from "./ErrorBoundary";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ErrorB>
-      <NewProvider>
-        <App />
-      </NewProvider>
-    </ErrorB>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
