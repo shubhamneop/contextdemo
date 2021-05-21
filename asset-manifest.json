@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shubhamneop/contextdemo/static/css/main.135ddd75.chunk.css",
+    "main.js": "/shubhamneop/contextdemo/static/js/main.824f7993.chunk.js",
+    "main.js.map": "/shubhamneop/contextdemo/static/js/main.824f7993.chunk.js.map",
+    "runtime-main.js": "/shubhamneop/contextdemo/static/js/runtime-main.afab97fa.js",
+    "runtime-main.js.map": "/shubhamneop/contextdemo/static/js/runtime-main.afab97fa.js.map",
+    "static/js/2.7484902c.chunk.js": "/shubhamneop/contextdemo/static/js/2.7484902c.chunk.js",
+    "static/js/2.7484902c.chunk.js.map": "/shubhamneop/contextdemo/static/js/2.7484902c.chunk.js.map",
+    "static/js/3.15042b8c.chunk.js": "/shubhamneop/contextdemo/static/js/3.15042b8c.chunk.js",
+    "static/js/3.15042b8c.chunk.js.map": "/shubhamneop/contextdemo/static/js/3.15042b8c.chunk.js.map",
+    "index.html": "/shubhamneop/contextdemo/index.html",
+    "static/css/main.135ddd75.chunk.css.map": "/shubhamneop/contextdemo/static/css/main.135ddd75.chunk.css.map",
+    "static/js/2.7484902c.chunk.js.LICENSE.txt": "/shubhamneop/contextdemo/static/js/2.7484902c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afab97fa.js",
+    "static/js/2.7484902c.chunk.js",
+    "static/css/main.135ddd75.chunk.css",
+    "static/js/main.824f7993.chunk.js"
+  ]
+}
